@@ -4,8 +4,4 @@ import net.minecraft.world.item.component.FireworkExplosion;
 
 public final class BlFireworkShapeTypes {
     public static FireworkExplosion.Shape BLAHAJ;
-
-    static {
-        FireworkExplosion.Shape.values();
-    }
 }
