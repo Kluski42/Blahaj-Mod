@@ -19,7 +19,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.wetnoodle.blahaj.Blahaj"
+			"net.wetnoodle.blahaj.BlahajMod"
 		],
 		"client": [
 			"net.wetnoodle.blahaj.BlahajClient"

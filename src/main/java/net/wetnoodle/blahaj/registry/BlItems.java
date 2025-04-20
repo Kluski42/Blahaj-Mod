@@ -10,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
 import net.wetnoodle.blahaj.BlConstants;
+import net.wetnoodle.blahaj.item.BlahajItem;
 import net.wetnoodle.blahaj.registry.tags.BlBannerPatternTags;
 import org.jetbrains.annotations.NotNull;
 
@@ -20,6 +21,11 @@ public class BlItems {
             "blahaj_banner_pattern", Item::new,
             new Item.Properties().stacksTo(1).rarity(Rarity.COMMON)
                     .component(DataComponents.PROVIDES_BANNER_PATTERNS, BlBannerPatternTags.PATTERN_ITEM_BLAHAJ));
+
+    public static final Item BLAHAJ = register(
+            "blahaj", BlahajItem::new,
+            new Item.Properties()
+    );
 
     public static void init() {
         BlConstants.logWithModId("Registering blocks for");

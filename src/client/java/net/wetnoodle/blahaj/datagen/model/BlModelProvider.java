@@ -19,7 +19,6 @@ public class BlModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerators generator) {
         generator.generateFlatItem(BlItems.BLAHAJ_BANNER_PATTERN, ModelTemplates.FLAT_ITEM);
+        generator.generateFlatItem(BlItems.BLAHAJ, ModelTemplates.FLAT_ITEM);
     }
-
-
 }

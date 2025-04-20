@@ -1,6 +1,9 @@
 {
   "item.minecraft.firework_star.shape.blahajblahaj": "Blahaj-shaped",
   "item.blahaj.blahaj_banner_pattern": "Blahaj Banner Pattern",
+  "item.blahaj.blahaj": "Blahaj",
+
+  "entity.blahaj.blahaj": "Blahaj",
 
   "block.minecraft.banner.blahaj.blahaj.black": "Black Blahaj",
   "block.minecraft.banner.blahaj.blahaj.blue": "Blue Blahaj",
