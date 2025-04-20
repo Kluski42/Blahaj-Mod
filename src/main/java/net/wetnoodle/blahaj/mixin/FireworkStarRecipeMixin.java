@@ -5,6 +5,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.component.FireworkExplosion;
 import net.minecraft.world.item.crafting.FireworkStarRecipe;
 import net.wetnoodle.blahaj.entity.impl.BlFireworkShapeTypes;
+import net.wetnoodle.blahaj.registry.BlItems;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -21,7 +22,7 @@ public class FireworkStarRecipeMixin {
 
     static {
         HashMap<Item, FireworkExplosion.Shape> mutableSBI = new HashMap<>(SHAPE_BY_ITEM);
-        mutableSBI.put(Items.WHITE_WOOL, BlFireworkShapeTypes.BLAHAJ);
+        mutableSBI.put(BlItems.BLAHAJ, BlFireworkShapeTypes.BLAHAJ);
         SHAPE_BY_ITEM = Map.copyOf(mutableSBI);
     }
 }

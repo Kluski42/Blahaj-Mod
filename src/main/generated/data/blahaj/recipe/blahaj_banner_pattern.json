@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "blahaj:blahaj"
+  ],
+  "result": {
+    "count": 1,
+    "id": "blahaj:blahaj_banner_pattern"
+  }
+}

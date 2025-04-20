@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:black_wool",
+    "P": "minecraft:pink_wool",
+    "U": "minecraft:light_blue_wool",
+    "W": "minecraft:white_wool"
+  },
+  "pattern": [
+    "UUU",
+    "UBU",
+    "PWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "blahaj:blahaj"
+  }
+}

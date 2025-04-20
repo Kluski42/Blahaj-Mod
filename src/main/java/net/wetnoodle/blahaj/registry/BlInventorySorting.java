@@ -17,12 +17,7 @@ public class BlInventorySorting {
     public static void init() {
         BlConstants.log("Adding items for Blahaj to creative inventory");
         addAfter(Items.GUSTER_BANNER_PATTERN, BlItems.BLAHAJ_BANNER_PATTERN, INGREDIENTS);
-//        initRedstoneBlocks();
-    }
-
-    private static void initRedstoneBlocks() {
-//        addBefore(Blocks.SCULK_SENSOR, NMBlocks.CREAKING_EYE, REDSTONE_BLOCKS);
-//        addAfter(Blocks.DROPPER, NMBlocks.SNEEZER, REDSTONE_BLOCKS);
+        addAfter(Items.ARMOR_STAND, BlItems.BLAHAJ, FUNCTIONAL_BLOCKS);
     }
 
     // Copied from FrozenLib

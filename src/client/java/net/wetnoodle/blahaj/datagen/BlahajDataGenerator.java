@@ -7,6 +7,7 @@ import net.minecraft.core.registries.Registries;
 import net.wetnoodle.blahaj.BlConstants;
 import net.wetnoodle.blahaj.block.entity.BlBannerPatterns;
 import net.wetnoodle.blahaj.datagen.model.BlModelProvider;
+import net.wetnoodle.blahaj.datagen.recipe.BlRecipeProvider;
 import net.wetnoodle.blahaj.datagen.tag.BlBannerPatternTagProvider;
 import net.wetnoodle.blahaj.datagen.tag.BlItemTagProvider;
 
@@ -16,8 +17,9 @@ public class BlahajDataGenerator implements DataGeneratorEntrypoint {
         final FabricDataGenerator.Pack pack = dataGenerator.createPack();
         pack.addProvider(BlRegistryProvider::new);
         pack.addProvider(BlItemTagProvider::new);
-        pack.addProvider(BlModelProvider::new);
         pack.addProvider(BlBannerPatternTagProvider::new);
+        pack.addProvider(BlRecipeProvider::new);
+        pack.addProvider(BlModelProvider::new);
     }
 
     @Override
