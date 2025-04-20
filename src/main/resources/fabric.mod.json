@@ -5,7 +5,10 @@
 	"name": "Blahaj",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Wet Noodle / Ashlyn"
+	],
+	"contributors": [
+		"IndigoTail"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -22,7 +25,7 @@
 			"net.wetnoodle.blahaj.BlahajClient"
 		],
 		"fabric-datagen": [
-			"net.wetnoodle.blahaj.BlahajDataGenerator"
+			"net.wetnoodle.blahaj.datagen.BlahajDataGenerator"
 		]
 	},
 	"mixins": [

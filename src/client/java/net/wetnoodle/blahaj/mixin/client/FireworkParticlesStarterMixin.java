@@ -24,12 +24,7 @@ public abstract class FireworkParticlesStarterMixin extends NoRenderParticle {
     }
 
     @Shadow
-    private void createParticleShape(double d, double[][] ds, IntList intList, IntList intList2, boolean bl, boolean bl2, boolean bl3) {}
-
-    @Shadow
     private void createParticle(double d, double e, double f, double g, double h, double i, IntList intList, IntList intList2, boolean bl, boolean bl2) {}
-
-
 
     @Unique
     private static final double[][] BLAHAJ$BLAHAJ_PARTICLE_COORDS = new double[][]{

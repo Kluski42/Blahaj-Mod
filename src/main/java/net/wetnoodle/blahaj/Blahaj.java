@@ -2,23 +2,21 @@ package net.wetnoodle.blahaj;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.wetnoodle.blahaj.block.entity.BlBannerPatterns;
+import net.wetnoodle.blahaj.registry.BlInventorySorting;
+import net.wetnoodle.blahaj.registry.BlItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Blahaj implements ModInitializer {
-	public static final String MOD_ID = "blahaj";
-
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
-
-		LOGGER.info("Hello Fabric world!");
+		BlItems.init();
+		BlInventorySorting.init();
+		BlBannerPatterns.init();
 	}
 }

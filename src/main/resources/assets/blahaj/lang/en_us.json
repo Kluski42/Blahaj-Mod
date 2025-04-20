@@ -1,3 +1,21 @@
 {
-  "item.minecraft.firework_star.shape.blahajblahaj": "Blahaj-shaped"
+  "item.minecraft.firework_star.shape.blahajblahaj": "Blahaj-shaped",
+  "item.blahaj.blahaj_banner_pattern": "Blahaj Banner Pattern",
+
+  "block.minecraft.banner.blahaj.blahaj.black": "Black Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.blue": "Blue Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.brown": "Brown Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.cyan": "Cyan Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.gray": "Gray Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.green": "Green Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.light_blue": "Light Blue Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.light_gray": "Light Gray Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.lime": "Lime Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.magenta": "Magenta Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.orange": "Orange Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.pink": "Pink Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.purple": "Purple Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.red": "Red Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.white": "White Blahaj",
+  "block.minecraft.banner.blahaj.blahaj.yellow": "Yellow Blahaj"
 }
