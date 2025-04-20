@@ -3,7 +3,7 @@
 	"id": "blahaj",
 	"version": "${version}",
 	"name": "Blahaj",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds new features centered on our favorite shark friend <3",
 	"authors": [
 		"Wet Noodle / Ashlyn"
 	],
@@ -11,8 +11,7 @@
 		"IndigoTail"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Kluski42/Blahaj-Mod"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/blahaj/icon.png",
